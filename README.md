@@ -8,6 +8,8 @@ _Note: Data used in the projects (accessed under data directory of each project)
 
 - ### Machine Learning
 
+	- [Analytics Vidhya Black Friday Competition](https://github.com/joseajrv/Data-Science-Portfolio/blob/master/Black%20Friday/Black%20Friday.ipynb): A model to predict the customer purchase behaviour (purchase amount) against various products of different categories using ML algorithms, with Random Forest Regression and grid search in order to improve the precision of the prediction.
+
 	- [Predicting Boston Housing Prices](https://github.com/joseajrv/ML/blob/master/Boston%20Scikit%20Learn/Boston%20Housing%20.ipynb): A model to predict the value of a given house in the Boston real estate market using various statistical analysis tools. Identified the best price that a client can sell their house utilizing machine learning.
 
 	- [Kaggle Titanic Decision Tree and Random Forest with Grid Search](https://github.com/joseajrv/Data-Science-Portfolio/blob/master/Kaggle's%20Titanic%20Comp/Kaggle%20Titanic%20Comparing%20Decision%20Tree%20and%20Random%20Forest%20with%20Grid%20Search.ipynb): A model to predict whether the passengers survived or not the Titanic using ML algorithms, first Random Forest Regression to predict the missing data from the Ages column, after that it compares the results between logistic regression, decision trees and random forest classifier with grid search in order to improve the precision of the prediction.
@@ -30,6 +32,8 @@ _Note: Data used in the projects (accessed under data directory of each project)
 		- [ML with Decision Trees and Random Forests]( https://github.com/joseajrv/Data-Science-Portfolio/blob/master/Lending%20Club%20Project/Decision%20Trees%20and%20Random%20Forest%20Project%20.ipynb): Using Decision Trees and Random Forests to predict whether a lender will pay their loan back. Uses publicly available data from LendingClub.com
 
 		- [ML with SVM and Grid Search](https://github.com/joseajrv/Data-Science-Portfolio/blob/master/Scikit-Learn%20Breast%20Cancer%20Data/SVM%20and%20Grid%20Search.ipynb): Using SVM and Grid Search to predict whether a tumour is malingnant or bening. Uses [Breast Cancer Wisconsin (Diagnostic) Data Set](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+Diagnostic) from Scikit Learn.
+
+		- [ML with SVM and Grid Search - Iris](https://github.com/joseajrv/Data-Science-Portfolio/blob/master/Iris%20Dataset%20Project/Iris%20-%20Support%20Vector%20Machines%20Project%20.ipynb): Using SVM and Grid Search to predict the species of the iris flowers dataset.
 
 		- [ML with K Means Clustering - Iris](https://github.com/joseajrv/Data-Science-Portfolio/blob/master/Iris%20Dataset%20Project/Iris%20Dataset%20K%20Means%20Clustering%20Project.ipynb): Simple K Means Clustering algorithm to predict the species of the iris flowers dataset.
 
