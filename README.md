@@ -39,6 +39,7 @@ _Note: Data used in the projects (accessed under data directory of each project)
 
 		- [ML with K Means Clustering - Universities](https://nbviewer.jupyter.org/github/joseajrv/Data-Science-Portfolio/blob/master/Universities%20K%20Means%20Clustering/Universities%20-%20K%20Means%20Clustering%20Project%20.ipynb): Attempt to use KMeans Clustering to cluster Universities into to two groups, Private and Public.
 		- [Movie Recommendations using Recommender Systems](https://github.com): A micro project to build a recommendation system that makes movie recommendations based on user review similarities.
+		- [TF DNN Banknote Authentication](https://github.com/joseajrv/Data-Science-Portfolio/tree/master/Bank%20Authentication%20Tensorflow): A micro project to predict the authenticity of a Banknote using TF DNN.
 
 - ### Short Reports of Statistical Analysis
 	- [Quantitative Methods]( https://github.com/joseajrv/Data-Science-Portfolio/tree/master/Quantitative%20Methods): Short text reports from surveys and statistical studies made in Buenos Aires.
