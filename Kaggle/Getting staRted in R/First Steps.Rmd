@@ -1,0 +1,98 @@
+---
+title: "R Notebook"
+output: html_notebook
+editor_options: 
+  chunk_output_type: console
+---
+![](https://www.r-project.org/Rlogo.png)
+
+____________________________________________________________________________________
+
+### Introduction
+
+R is a program?ing language for statistical analysis and visualization. Using R, you can take raw data and understand the trends and patterns in it. You can also use R to create customizable, professional-looking visualizations.
+
+This tutorial will help introduce you to ?he R programming language. I'm not going to assume any programming background for this tutorial. 
+
+
+_____________________________________________________________________________
+
+
+### Learning goals:
+
+By the end of this tutorial, you will be able to do the?following things. (Don't worry if you don't know what all these things are yet; we'll get there together!)
+
+* [Be familiar with basic concepts: functions, variables, data types and vectors](https://www.kaggle.com/rtatman/getting-started-in-r-first-steps/)
+? [Load data into R](https://www.kaggle.com/rtatman/getting-started-in-r-load-data-into-r)
+* [Summerize your data](https://www.kaggle.com/rtatman/getting-started-in-r-summarize-data)
+* [Graph data and save your graphs](https://www.kaggle.com/rtatman/getting?started-in-r-graphing-data/)
+
+_____________________________________________________________________________
+
+### First steps 
+
+This section is designed to help you understand some basic vocabulary and concepts we'll use later on. If you already have some p?ogramming experience, you can probably skim this section.
+
+### Functions and Arguments
+
+This is a chunk with code. You'll notice that in code chunks, when I have something to say that I don't want R to treat as code, I'll put a # symbol in front of it.
+The?e non-code bits are called "comments", and they're helpful when you want to describe what's going on in your code. Use them often!
+
+To run a chunk, you can hit the blue "play" arrow to the left, or put your cursor inside
+the chunk and then hit CTRL + ENTER?(CMD + ENTER on a Mac)
+```{r}
+print("Welcome to R!")
+```
+The output of the code will print below the chunk. You should see the text "Welcome to R!" print below ????????? once this chunk has been run.
+```{r}
+print("I'm coding into R")
+```
+
+HINT: Trying copying the code from the chunk above and modifying it. (You might be surprised how much of programming is copying other people's code and modifying it!) running this block ?ill pull up the documentation page for the print() function
+
+
+```{r}
+?print()
+```
+
+In R, you can store data in a variable by using either "=" or "<-". You can name a  variable anything you want as long as it's not already the name of something else. 
+
+I fi?d that a short phrase (without spaces) is generally best.
+
+
+```{r}
+textToPrint <- "this is some text to print"
+```
+
+If you give R the name of a variable, it will print whatever is in that variable
+
+
+```{r}
+textToPrint
+```
+
+note that capitalization does mat?er! This line will generate an error becuase there is nothing called "texttoprint"
+
+```{r}
+aSentence <- "I am storing a sentence in a variable"
+aSentence
+
+
+
+# our old friend print()
+print(textToPrint)
+
+# the nchar() function tells you the number of charact?rs in a variable
+nchar(textToPrint)
+
+# the c() function concatenates (strings together) all its arguments
+c(textToPrint, textToPrint, textToPrint)
+
+# print your variable "aSentence" you made above
+print(aSentence)
+# find out the number of characters in "aS?ntence"
+nchar(aSentence)
+# concatenate the "textToPrint" and "aSentence" variables
+c(textToPrint, aSentence)
+
+```
